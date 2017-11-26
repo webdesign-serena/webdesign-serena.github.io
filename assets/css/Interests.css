@@ -1,0 +1,263 @@
+body, html {
+margin: 0px;
+height: 900px;
+width: 100%;
+background: white;
+position: relative;
+
+} 
+a{
+	text-decoration: none;
+}
+p{
+	position: relative;
+	text-align:center;
+	top:30px;
+	font-size: 45px;
+	font-family: 'Amatic SC', cursive;
+	color:grey;
+}
+
+.blur{
+	text-align:center;
+	top:180px;
+	font-size: 40px;
+	font-family: 'Amatic SC', cursive;
+	color:	#ff8080;
+	position: absolute;
+	margin: auto;
+    width: 50%;
+    left:25%;
+    letter-spacing: 5px;
+
+}
+.bordertop{
+	height:100px;
+	width:auto;
+	right:0px;
+	position:fixed;
+	
+}
+.bordertop-left{
+	height:100px;
+	width:auto;
+	left:0px;
+	position:fixed;
+	
+}
+.borderbottom-left{
+	height:100px;
+	width:auto;
+	left:0px;
+	bottom:0px;
+	position:fixed;
+	
+}
+.borderbottom-right{
+	height:100px;
+	width:auto;
+	right:0px;
+	bottom:0px;
+	position:fixed;
+	
+}
+.AboutMe{
+	position: relative;
+	text-align:center;
+	top:5px;
+	font-size: 60px;
+	font-family: 'Pacifico', cursive;
+	color:#F08080;
+
+}
+
+#navbar{
+	position: absolute;
+	margin: auto;
+    width: 50%;
+    left:30%;
+    z-index:100;
+}
+.nav{
+	display:inline-block;
+	position:relative;
+	padding:0px 20px;
+	text-align: center;
+	color:#95BC7D;
+	font-weight: 500;
+	font-size: 50px;
+	font-family: 'Amatic SC', cursive;
+	z-index: 100;
+}
+
+.nav:hover{
+	opacity:1;
+	color:#66CDAA;
+	cursor:pointer;
+	z-index: 100;
+}
+.nav:active{
+	transform: scale(1.2);
+	transition:.05s;
+	z-index: 100;
+}
+
+
+
+
+
+/*CONTENT PAGE*/
+
+.section{
+	position:relative;
+	height:850px;
+	width: 100%;
+	
+}
+.carousel-container{
+	width:960px;
+	margin: auto;
+	height:1350px;
+	position:relative;
+	overflow:hidden;
+	bottom:500px;
+}
+#carousel{
+	width:6720px;
+	height:100%;
+	margin-left: 0px;
+	-webkit-transition: all 0.3s;
+
+}
+
+.carousel-item{
+	width:960px;
+	position:relative;
+	height:100%;
+	float:left;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.img-scaled {
+	width: 100%;
+	height: 100%;
+}
+
+.img-scaled-wh {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+
+.page-wrapper {
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	top:350px;
+	position:absolute;
+}
+
+/* Styling for the carousel previous button */
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the carousel next button */
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+/* Styling for the quotes and text in each section */
+.quote {
+	position: absolute;
+	border-radius:600px;
+	height:510px;
+	width:510px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+   	transform: translateX(-50%) translateY(-50%);
+   	cursor:pointer;
+}
+
+#comment{
+	position:relative;
+	height:100px;
+	width:600px;
+	top:73%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+   	transform: translateX(-50%) translateY(-50%);
+}
+
+.name{
+	position: relative;
+	text-align:center;
+	font-size: 45px;
+	font-family: 'Amatic SC', cursive;
+	color:grey;
+	top:535px;
+	margin:-25px;
+}
+
+.caption{
+	position: relative;
+	text-align:center;
+	font-size: 35px;
+	font-family: 'Amatic SC', cursive;
+	color:grey;
+}
+/* jQuery Manipulation Classes */
+
+
+
+.card {
+	margin: 0px;
+	position: absolute;
+	border-radius:600px;
+	height:510px;
+	width:510px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+   	transform: translateX(-50%) translateY(-50%);
+   	cursor:pointer;
+
+}
+
+
+

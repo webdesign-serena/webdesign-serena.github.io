@@ -1,0 +1,162 @@
+body, html {
+margin: 0px;
+height: 100%;
+width: auto;
+background: white;
+position: relative;
+
+} 
+a{
+	text-decoration: none;
+}
+p{
+	position: relative;
+	text-align:center;
+	top:30px;
+	font-size: 45px;
+	font-family: 'Amatic SC', cursive;
+	color:#ff8080;
+}
+.bordertop{
+	height:100px;
+	width:auto;
+	right:0px;
+	position:fixed;
+	
+}
+.bordertop-left{
+	height:100px;
+	width:auto;
+	left:0px;
+	position:fixed;
+	
+}
+.borderbottom-left{
+	height:100px;
+	width:auto;
+	left:0px;
+	bottom:0px;
+	position:fixed;
+	
+}
+.borderbottom-right{
+	height:100px;
+	width:auto;
+	right:0px;
+	bottom:0px;
+	position:fixed;
+	
+}
+.AboutMe{
+	position: relative;
+	text-align:center;
+	top:5px;
+	font-size: 60px;
+	font-family: 'Pacifico', cursive;
+	color:#F08080;
+
+}
+
+#navbar{
+	position: absolute;
+	margin: auto;
+    width: 50%;
+    left:30%;
+}
+.nav{
+	display:inline-block;
+	position:relative;
+	padding:0px 20px;
+	text-align: center;
+	color:#95BC7D;
+	font-weight: 500;
+	font-size: 50px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.nav:hover{
+	opacity:1;
+	color:#66CDAA;
+	cursor:pointer;
+}
+.nav:active{
+	transform: scale(1.2);
+	transition:.05s;
+}
+
+
+
+/*CONTENT PAGE*/
+#content{
+	position:relative;
+	height:100%;
+	width:100%;
+	/*border-style:solid;
+	border-color:black;*/
+	float:right;
+	/*top:20px;*/
+}
+#pictures{
+	left:20%;
+	position:absolute;
+	height:100%;
+	width:80%;
+	top:2%;
+}
+.item{
+	height:300px;
+	width:400px;
+	margin-left:20px;
+	margin-right:20px;
+	opacity:.7;
+}
+
+.row{
+	padding:10px;
+/*	display:inline-block;*/
+}
+.item:hover{
+	opacity:1;
+	cursor:pointer;
+
+}
+
+
+#close {
+	color: white;
+	font: 36px/100% arial, sans-serif;
+  	position: fixed;
+	right: 20px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	top: 20px;
+	z-index: 3;
+}
+
+#overlay {
+	background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	height: 200%;
+	width: 100%;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+}
+
+#image-container {
+	height: 450px;
+	width: 600px;
+	border: 5px solid #fafafa;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	overflow: hidden;
+	background-color: grey;
+}
+
+#image {
+	position: relative;
+	height: 100%;
+}

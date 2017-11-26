@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Serena's Website</title>
+<!-- <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link type="text/css" rel="stylesheet" media="screen" href="assets/css/jquery-sakura.min.css" />
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+</head>
+<body>
+    <div id= "container"></div>
+	<div id="page-layout">
+		<div id= "content">
+			<div id= "picture">
+				<div class="water"><img src="assets/img/pretty.1.jpg"></div>
+				<div class="Serena">Serena Chan </div>
+			</div>
+			<div id="lowerbar">
+				<a href="index.html" class= "nav home"> Home</a>
+				<a href="AboutMe.html" class="nav about"> About Me </a>
+				<a href="Interests.html" class= "nav interests"> Interests </a>
+				<a href="Gallery.html" class= "nav portfolio">Gallery</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script> 
+<script src="assets/js/jquery-sakura.min.js"></script>
+<script>
+    // domReady
+    $(function() {
+        $('#container').sakura();
+    });
+
+    // windowLoad
+    $(window).load(function() {
+        $('#container').sakura();
+    });
+
+
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
+
+
+
+</html>

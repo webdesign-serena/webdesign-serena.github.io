@@ -1,0 +1,152 @@
+body, html {
+margin: 0px;
+height: 100%;
+width: 100%;
+background: white;
+position: relative;
+
+} 
+a{
+	text-decoration: none;
+}
+.bordertop{
+	height:100px;
+	width:auto;
+	right:0px;
+	position:fixed;
+	
+}
+.bordertop-left{
+	height:100px;
+	width:auto;
+	left:0px;
+	position:fixed;
+	
+}
+.borderbottom-left{
+	height:100px;
+	width:auto;
+	left:0px;
+	bottom:0px;
+	position:fixed;
+	
+}
+.borderbottom-right{
+	height:100px;
+	width:auto;
+	right:0px;
+	bottom:0px;
+	position:fixed;
+	
+}
+.AboutMe{
+	position: relative;
+	text-align:center;
+	top:5px;
+	font-size: 60px;
+	font-family: 'Pacifico', cursive;
+	color:#F08080;
+
+}
+
+#navbar{
+	position: absolute;
+	margin: auto;
+    width: 50%;
+    left:30%;
+}
+.nav{
+	display:inline-block;
+	position:relative;
+	padding:0px 20px;
+	text-align: center;
+	color:#95BC7D;
+	font-weight: 500;
+	font-size: 50px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.nav:hover{
+	opacity:1;
+	color:#66CDAA;
+	cursor:pointer;
+}
+.nav:active{
+	transform: scale(1.2);
+	transition:.05s;
+}
+
+
+
+/*CONTENT AREA*/
+#content{
+	position:relative;
+	height:80%;
+	width:90%;
+	/*border-style:solid;
+	border-color:black;*/
+	float:right;
+	top:50px;
+}
+.photo{
+	width:auto;
+	height:450px;
+	top:40px;
+	left:150px;
+	position:absolute;
+}
+#info{
+	position:relative;
+	height:600px;
+	width:400px;
+	float:right;
+	right:20%;
+
+}
+.bio{
+	position:absolute;
+	width:600px;
+	height:auto;
+	float:right;
+	top:3%;
+	left:-190px;
+	font-size:20px;
+	font-family: 'Handlee', cursive;
+	color:#787878;
+}
+#contactbar{
+	position: absolute;
+	display: inline-block;
+	right:100px;
+	top:510px;
+	width:350px;
+	float:right;
+}
+
+.icon:hover{
+	cursor: pointer;
+}
+
+.icon:active{
+	transform:scale(1.2);
+}
+.facebook{
+	position:relative;
+	height:8%;
+	width:auto;
+	margin:5px;
+}
+.instagram{
+	position:relative;
+	height:8%;
+	width:auto;
+	margin:5px;
+
+}
+
+.email{
+	position: relative;
+	height:8%;
+	width:auto;
+	margin:5px;
+}
