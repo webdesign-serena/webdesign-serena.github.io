@@ -1,3 +1,5 @@
+
+@media screen and (min-width:500px) {
 body, html {
 margin: 0px;
 height: 100%;
@@ -94,6 +96,7 @@ a{
 	top:40px;
 	left:120px;
 	position:absolute;
+	border-radius:30px;
 }
 #info{
 	position:relative;
@@ -149,4 +152,11 @@ a{
 	height:8%;
 	width:auto;
 	margin:5px;
+}
+.linkedin{
+	position: relative;
+	height:8%;
+	width:auto;
+	margin:5px;
+}
 }
