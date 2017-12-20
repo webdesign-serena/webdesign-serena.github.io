@@ -92,7 +92,7 @@ a{
 	width:auto;
 	height:450px;
 	top:40px;
-	left:150px;
+	left:120px;
 	position:absolute;
 }
 #info{
@@ -109,7 +109,7 @@ a{
 	height:auto;
 	float:right;
 	top:3%;
-	left:-190px;
+	left:-170px;
 	font-size:20px;
 	font-family: 'Handlee', cursive;
 	color:#787878;
