@@ -16,6 +16,10 @@ overflow:hidden;
 	position: absolute;
 }
 
+audio{
+	visibility: hidden;
+}
+
 a{
 	text-decoration: none;
 }
