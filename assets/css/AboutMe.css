@@ -106,6 +106,18 @@ a{
 	right:20%;
 
 }
+.scroll{
+	position:absolute;
+	width:600px;
+	height:auto;
+	float:right;
+	top:3%;
+	left:-170px;
+	font-size:20px;
+	font-family: 'Handlee', cursive;
+	color:#787878;
+
+}
 .bio{
 	position:absolute;
 	width:600px;
