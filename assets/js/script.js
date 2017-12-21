@@ -6,7 +6,7 @@ $('#name').typeIt({
 })
 .tiPause(2000)
 .tiDelete(12)
-.tiType("Economicst")
+.tiType("Fashionista")
 .tiPause(1500)
 .tiDelete(30)
 .tiPause(500)
