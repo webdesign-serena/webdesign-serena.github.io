@@ -1,5 +1,5 @@
 
-@media screen and (min-width:500px) {
+@media (min-width:500px) {
 body, html {
 margin: 0px;
 height: 100%;
@@ -8,6 +8,7 @@ background: white;
 position: relative;
 
 } 
+}
 a{
 	text-decoration: none;
 }
@@ -94,8 +95,9 @@ a{
 	width:auto;
 	height:450px;
 	top:40px;
-	left:120px;
-	position:absolute;
+	float:center;
+	left:20%;
+	position:relative;
 	border-radius:30px;
 }
 #info{
@@ -103,28 +105,17 @@ a{
 	height:600px;
 	width:400px;
 	float:right;
-	right:20%;
+	right:23%;
 
 }
-.scroll{
-	position:absolute;
-	width:600px;
-	height:auto;
-	float:right;
-	top:3%;
-	left:-170px;
-	font-size:20px;
-	font-family: 'Handlee', cursive;
-	color:#787878;
 
-}
 .bio{
-	position:absolute;
+	position:relative;
 	width:600px;
 	height:auto;
-	float:right;
+	float:center;
+	right:15%;
 	top:3%;
-	left:-170px;
 	font-size:20px;
 	font-family: 'Handlee', cursive;
 	color:#787878;
