@@ -32,7 +32,16 @@ a{
 	height:100%;
 	width:100%;
 }
-
+#caption{
+	bottom: 2%;
+	left:93%;
+	font-size: 12px;
+	transform:translate(-50%, -50%);
+	position:absolute;
+	text-align:center;
+	width:70%;
+	font-family: 'Montserrat', sans-serif;
+}
 #picture{
 	position:relative;
 	margin: 0 auto;
@@ -61,33 +70,34 @@ a{
 }
 #name{
 	position:absolute;
-	font-size:85px;
+	font-size:52px;
 	display:block;
 	text-align:center;
 	left:50%;
-	top:45%;
+	top:47%;
 	transform:translate(-50%, -50%);
 	bottom:50%;
-	font-family:  'Amatic SC', cursive;
+	font-family: 'Libre Baskerville', serif;
 	color:#66CDAA;
 	z-index:2;
 }
 #lowerbar{
 	float: left;
-	top:85%;
+	top:87%;
 	left:50%;
 	transform:translate(-50%, -50%);
 	position:absolute;
 	text-align:center;
-	width:100%;
+	width:70%;
 
 }
 .nav{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Montserrat', sans-serif;
 	position: relative;
-	font-size:75px;
+	font-size:35px;
 	display: inline-block;
-	padding:0px 5px;
+	/*padding:0px -800px;*/
+	margin: 0px 20px;
 	line-height:120px;
 	width:20%;
 	color: #FFA07A;
@@ -105,4 +115,4 @@ a{
 .nav:active{
 	transform: scale(1.2);
 	}
-}
+

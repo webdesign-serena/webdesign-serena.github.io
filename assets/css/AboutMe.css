@@ -1,33 +1,36 @@
 
-@media (min-width:500px) {
+/*@media (min-width:500px) {*/
 body, html {
 margin: 0px;
-height: 100%;
+height: 120%;
 width: 100%;
 background: white;
-position: relative;
-
+position: static;
+max-width: 100%;
+overflow-x: hidden;
+height: 100vh;
 } 
-}
+/*}*/
 a{
 	text-decoration: none;
 }
+
 .bordertop{
-	height:100px;
+	height:60px;
 	width:auto;
 	right:0px;
 	position:fixed;
 	
 }
 .bordertop-left{
-	height:100px;
+	height:60px;
 	width:auto;
 	left:0px;
 	position:fixed;
 	
 }
 .borderbottom-left{
-	height:100px;
+	height:60px;
 	width:auto;
 	left:0px;
 	bottom:0px;
@@ -35,7 +38,7 @@ a{
 	
 }
 .borderbottom-right{
-	height:100px;
+	height:60px;
 	width:auto;
 	right:0px;
 	bottom:0px;
@@ -45,28 +48,28 @@ a{
 .AboutMe{
 	position: relative;
 	text-align:center;
-	top:5px;
+	top:10px;
 	font-size: 60px;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Libre Baskerville', serif;
 	color:#F08080;
 
 }
 
 #navbar{
-	position: absolute;
+	
+	position: relative;
 	margin: auto;
+	top:30px;
     width: 50%;
-    left:30%;
+   text-align: center;
 }
 .nav{
 	display:inline-block;
-	position:relative;
 	padding:0px 20px;
 	text-align: center;
 	color:#95BC7D;
-	font-weight: 500;
-	font-size: 50px;
-	font-family: 'Amatic SC', cursive;
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .nav:hover{
@@ -94,7 +97,7 @@ a{
 .photo{
 	width:auto;
 	height:450px;
-	top:40px;
+	top:20px;
 	float:center;
 	left:20%;
 	position:relative;
@@ -108,8 +111,20 @@ a{
 	right:23%;
 
 }
-
 .bio{
+  padding: 1% 0 9% 0;;
+  position: relative;
+  width: 150%;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+.serena{
+	font-weight:bold;
+	position: relative;
+	font-size: 25px;
+}
+/*.bio{
 	position:relative;
 	width:600px;
 	height:auto;
@@ -119,12 +134,12 @@ a{
 	font-size:20px;
 	font-family: 'Handlee', cursive;
 	color:#787878;
-}
+}*/
 #contactbar{
 	position: absolute;
 	display: inline-block;
-	right:100px;
-	top:510px;
+	left:-425px;
+	top:530px;
 	width:350px;
 	float:right;
 }
@@ -162,4 +177,13 @@ a{
 	width:auto;
 	margin:5px;
 }
+#caption{
+	bottom: 2%;
+	left:93%;
+	font-size: 12px;
+	transform:translate(-50%, -50%);
+	position:absolute;
+	text-align:center;
+	width:70%;
+	font-family: 'Montserrat', sans-serif;
 }

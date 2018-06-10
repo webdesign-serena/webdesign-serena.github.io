@@ -2,6 +2,8 @@ body, html {
 margin: 0px;
 height: 100%;
 width: auto;
+max-width: 100%;
+overflow-x: hidden;
 background: white;
 position: relative;
 
@@ -18,21 +20,21 @@ p{
 	color:#ff8080;
 }
 .bordertop{
-	height:100px;
+	height:60px;
 	width:auto;
 	right:0px;
 	position:fixed;
 	
 }
 .bordertop-left{
-	height:100px;
+	height:60px;
 	width:auto;
 	left:0px;
 	position:fixed;
 	
 }
 .borderbottom-left{
-	height:100px;
+	height:60px;
 	width:auto;
 	left:0px;
 	bottom:0px;
@@ -40,14 +42,14 @@ p{
 	
 }
 .borderbottom-right{
-	height:100px;
+	height:60px;
 	width:auto;
 	right:0px;
 	bottom:0px;
 	position:fixed;
 	
 }
-.AboutMe{
+.Portfolio{
 	position: relative;
 	text-align:center;
 	top:5px;
@@ -93,27 +95,38 @@ p{
 	width:100%;
 	/*border-style:solid;
 	border-color:black;*/
-	float:right;
+	float:left;
 	/*top:20px;*/
 }
 #pictures{
 	left:20%;
 	position:absolute;
 	height:100%;
-	width:80%;
+	width:auto;
 	top:2%;
 }
 .item{
-	height:300px;
-	width:400px;
+	height:340px;
+	width:auto;
 	margin-left:20px;
 	margin-right:20px;
-	opacity:.7;
+	opacity:.8;
 }
 
 .row{
 	padding:10px;
+	width:auto;
+	right:140px;
+	position:relative;
+	top:50px;
 /*	display:inline-block;*/
+}
+.vertical{
+	left:0px;
+	padding: 0px 5px;
+	top: 20px;
+	position:relative;
+	height:370px;
 }
 .item:hover{
 	opacity:1;
@@ -144,8 +157,8 @@ p{
 }
 
 #image-container {
-	height: 450px;
-	width: 600px;
+	height: 700px;
+	width: auto;
 	border: 5px solid #fafafa;
 	position: fixed;
 	top: 50%;
@@ -160,3 +173,4 @@ p{
 	position: relative;
 	height: 100%;
 }
+

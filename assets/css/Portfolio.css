@@ -1,0 +1,187 @@
+body, html {
+margin: 0px;
+height: 140%;
+width: 100%;
+background: white;
+position: static;
+max-width: 100%;
+overflow-x: hidden;
+height: 100vh;
+} 
+a{
+	text-decoration: none;
+}
+p{
+	position: relative;
+	text-align:center;
+	top:30px;
+	font-style:italic;
+	font-size: 23px;
+	font-family: 'Montserrat', sans-serif;
+	color:#ff8080;
+}
+
+.bordertop{
+	height:60px;
+	width:auto;
+	right:0px;
+	position:fixed;
+	
+}
+.bordertop-left{
+	height:60px;
+	width:auto;
+	left:0px;
+	position:fixed;
+	
+}
+.borderbottom-left{
+	height:60px;
+	width:auto;
+	left:0px;
+	bottom:0px;
+	position:fixed;
+	
+}
+.borderbottom-right{
+	height:60px;
+	width:auto;
+	right:0px;
+	bottom:0px;
+	position:fixed;
+	
+}
+.AboutMe{
+	position: relative;
+	text-align:center;
+	top:10px;
+	font-size: 60px;
+	font-family: 'Libre Baskerville', serif;
+	color:#F08080;
+
+}
+
+#navbar{
+	position: relative;
+	margin: auto;
+	top:30px;
+    width: 100%;
+   text-align: center;
+}
+.nav{
+	display:inline-block;
+	position:relative;
+	padding:0px 20px;
+	text-align: center;
+	color:#95BC7D;
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	z-index: 100;
+}
+
+.nav:hover{
+	opacity:1;
+	color:#66CDAA;
+	cursor:pointer;
+	z-index: 100;
+}
+.nav:active{
+	transform: scale(1.2);
+	transition:.05s;
+	z-index: 100;
+}
+
+
+/*CONTENT PAGE*/
+#content{
+	position:relative;
+	height:100%;
+	width:100%;
+	float:left;
+}
+#pictures{
+	left:20%;
+	position:absolute;
+	height:100%;
+	width:auto;
+	top:2%;
+}
+.item{
+	height:340px;
+	width:auto;
+	margin-left:20px;
+	margin-right:20px;
+	opacity:.8;
+}
+
+.row{
+	padding:10px;
+	width:auto;
+	right:140px;
+	position:relative;
+	top:50px;
+}
+.vertical{
+	left:0px;
+	padding: 0px 5px;
+	top: 20px;
+	position:relative;
+	height:370px;
+}
+.item:hover{
+	opacity:1;
+	cursor:pointer;
+
+}
+
+
+#close {
+	color: white;
+	font: 36px/100% arial, sans-serif;
+  	position: fixed;
+	right: 20px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	top: 20px;
+	z-index: 3;
+}
+
+#overlay {
+	background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	height: 200%;
+	width: 100%;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+}
+
+#image-container {
+	height: 700px;
+	width: auto;
+	border: 5px solid #fafafa;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	overflow: hidden;
+	background-color: grey;
+}
+
+#image {
+	position: relative;
+	height: 100%;
+}
+#caption{
+	bottom: 2%;
+	left:93%;
+	font-size: 12px;
+	transform:translate(-50%, -50%);
+	position:absolute;
+	text-align:center;
+	width:70%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+

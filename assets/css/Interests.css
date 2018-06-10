@@ -1,6 +1,6 @@
 body, html {
 margin: 0px;
-height: 900px;
+height: 1500px;
 width: 100%;
 background: white;
 position: relative;
@@ -32,21 +32,21 @@ p{
 
 }
 .bordertop{
-	height:100px;
+	height:60px;
 	width:auto;
 	right:0px;
 	position:fixed;
 	
 }
 .bordertop-left{
-	height:100px;
+	height:60px;
 	width:auto;
 	left:0px;
 	position:fixed;
 	
 }
 .borderbottom-left{
-	height:100px;
+	height:60px;
 	width:auto;
 	left:0px;
 	bottom:0px;
@@ -54,7 +54,7 @@ p{
 	
 }
 .borderbottom-right{
-	height:100px;
+	height:60px;
 	width:auto;
 	right:0px;
 	bottom:0px;
@@ -102,12 +102,22 @@ p{
 	z-index: 100;
 }
 
-
+.description{
+	font-size:28px;
+	width:1200px;
+	height:auto;
+	left:50%;
+	position:relative;
+	transform: translate(-50%, 70%);
+}
 
 
 
 /*CONTENT PAGE*/
-
+#content{
+	top:-200px;
+	position:relative;
+}
 .section{
 	position:relative;
 	height:850px;
@@ -201,8 +211,9 @@ a {
 /* Styling for the quotes and text in each section */
 .quote {
 	position: absolute;
-	border-radius:600px;
-	height:510px;
+/*	border-radius:600px;*/
+	height:auto;
+	font-size:35px;
 	width:510px;
     top: 50%;
     left: 50%;
@@ -226,10 +237,10 @@ a {
 .name{
 	position: relative;
 	text-align:center;
-	font-size: 45px;
+	font-size: 40px;
 	font-family: 'Amatic SC', cursive;
 	color:grey;
-	top:535px;
+	top:485px;
 	margin:-25px;
 }
 
@@ -239,6 +250,35 @@ a {
 	font-size: 35px;
 	font-family: 'Amatic SC', cursive;
 	color:grey;
+}
+#Resume{
+	position:relative;
+	bottom:-800px;
+}
+.resume-icon{
+	position: relative;
+	height:300px;
+	width:auto;
+	left: 50%;
+  	transform: translate(-50%, 0%);
+}
+.resume-icon:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.resume-icon:active{
+}
+
+.blurb{
+	position:relative;
+	font-size:35px;
+	transform: translate(-25%, -50%);
+	font-family: 'Cutive Mono', monospace;
+}
+.logo{
+	height:350px;
+	width:auto;
 }
 /* jQuery Manipulation Classes */
 

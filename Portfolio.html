@@ -1,0 +1,73 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>About Me</title>
+<link rel="icon" href="assets/img/logo.1.png">
+<link rel="stylesheet" type="text/css" href="assets/css/Portfolio.css">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i|Montserrat:300" rel="stylesheet">
+
+
+<style>
+	@media (min-width:500px) {
+		#border, #header, #navbar,#content {
+			width:100%;
+		}
+	}
+</style>
+<body>
+	<div id= "border">
+		<img class="bordertop" src="assets/img/bordertop.jpg">
+		<img class="bordertop-left" src="assets/img/bordertop-left.jpg">
+		<img class="borderbottom-left" src="assets/img/borderbottom-left.jpg">
+		<img class="borderbottom-right" src="assets/img/borderbottom-right.jpg">
+	</div>
+
+
+
+
+
+	<div id="header">
+		<div class="AboutMe">Portfolio</div>
+	
+		<div id="navbar">
+				<a href="index.html" class= "nav home"> Home</a>
+				<a href="AboutMe.html" class="nav about"> About Me </a>
+				<a href="Portfolio.html" class= "nav interests"> Portfolio </a>
+				<a href="Resume.html" class= "nav portfolio">Experience</a>
+		</div>
+
+		<p> Click on images to enlarge</p>
+	</div>
+
+	<div id="content">
+		<div id="pictures">
+			<div class="vertical">
+				<img class="item" src="assets/img/portfolio/buzz.png">
+				<img class="item" src="assets/img/portfolio/teapot.png">
+				<img class="item" src="assets/img/portfolio/low_poly.png">
+			</div>
+
+			<div class="row">
+				<img class="item" src="assets/img/portfolio/yuta.png">
+				<img class="item" src="assets/img/portfolio/abstract.png">
+				<img class="item" src="assets/img/portfolio/ghiradelli.png">
+			</div>
+			
+			
+		</div>
+	</div>
+
+<div id="lightbox" style="display: none;">
+		<div id="overlay"></div>
+		<div id="close" style="cursor: pointer;">X</div>
+		<div id="image-container"><img id="image" src="assets/img/gallery/ascend.JPG"></div>
+</div>
+
+<div id='caption'> © Serena Chan 2018</div>
+
+
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="assets/js/Gallery.js"></script>
+</html>
