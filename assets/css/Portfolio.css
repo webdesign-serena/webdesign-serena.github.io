@@ -190,8 +190,8 @@ p{
 	z-index: 3;
 }
 #caption{
-	bottom: 2%;
-	left:117.5%;
+	bottom: -89%;
+	left:118.5%;
 	font-size: 12px;
 	transform:translate(-50%, -50%);
 	position:relative;
