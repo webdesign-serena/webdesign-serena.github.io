@@ -1,12 +1,11 @@
 body, html {
 margin: 0px;
-height: 140%;
+height: 165%;
 width: 100%;
 background: white;
 position: static;
 max-width: 100%;
 overflow-x: hidden;
-height: 100vh;
 } 
 a{
 	text-decoration: none;
@@ -76,7 +75,6 @@ p{
 	color:#95BC7D;
 	font-size: 35px;
 	font-family: 'Montserrat', sans-serif;
-	z-index: 100;
 }
 
 .nav:hover{
@@ -94,21 +92,24 @@ p{
 
 /*CONTENT PAGE*/
 #content{
-	position:relative;
+	position:absolute;
 	height:100%;
 	width:100%;
 	float:left;
 }
 #pictures{
 	left:20%;
-	position:absolute;
+	position:relative;
 	height:100%;
 	width:auto;
-	top:2%;
+	top:5%;
 }
 .item{
-	height:340px;
-	width:auto;
+	position: relative;
+  	width: 350px;
+  	height: 350px;
+  	object-fit: cover;
+	object-position: center;
 	margin-left:20px;
 	margin-right:20px;
 	opacity:.8;
@@ -122,11 +123,25 @@ p{
 	top:50px;
 }
 .vertical{
-	left:0px;
-	padding: 0px 5px;
-	top: 20px;
+	padding:10px;
+	width:auto;
+	right:140px;
 	position:relative;
-	height:370px;
+	top:20px;
+}
+.row3{
+	padding:10px;
+	width:auto;
+	right:140px;
+	position:relative;
+	top:80px;
+}
+.row4{
+	padding:10px;
+	width:auto;
+	right:140px;
+	position:relative;
+	top:110px;
 }
 .item:hover{
 	opacity:1;
@@ -172,16 +187,16 @@ p{
 #image {
 	position: relative;
 	height: 100%;
+	z-index: 3;
 }
 #caption{
 	bottom: 2%;
-	left:93%;
+	left:117.5%;
 	font-size: 12px;
 	transform:translate(-50%, -50%);
-	position:absolute;
-	text-align:center;
+	position:relative;
+	text-align:;
 	width:70%;
 	font-family: 'Montserrat', sans-serif;
 }
-
 

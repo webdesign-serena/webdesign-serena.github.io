@@ -2,13 +2,12 @@
 /*@media (min-width:500px) {*/
 body, html {
 margin: 0px;
-height: 120%;
+height: 138%;
 width: 100%;
 background: white;
 position: static;
 max-width: 100%;
 overflow-x: hidden;
-height: 100vh;
 } 
 /*}*/
 a{
@@ -96,12 +95,11 @@ a{
 }
 .photo{
 	width:auto;
-	height:450px;
-	top:20px;
+	height:500px;
+	top:33px;
 	float:center;
 	left:20%;
 	position:relative;
-	border-radius:30px;
 }
 #info{
 	position:relative;
@@ -114,7 +112,7 @@ a{
 .bio{
   padding: 1% 0 9% 0;;
   position: relative;
-  width: 150%;
+  width: 125%;
   font-family: 'Montserrat', sans-serif;
 
 
@@ -138,8 +136,8 @@ a{
 #contactbar{
 	position: absolute;
 	display: inline-block;
-	left:-425px;
-	top:530px;
+	left:-400px;
+	top:550px;
 	width:350px;
 	float:right;
 }
@@ -178,12 +176,39 @@ a{
 	margin:5px;
 }
 #caption{
-	bottom: 2%;
-	left:93%;
+	bottom: -15%;
+	left:112%;
 	font-size: 12px;
 	transform:translate(-50%, -50%);
 	position:absolute;
 	text-align:center;
 	width:70%;
 	font-family: 'Montserrat', sans-serif;
+}
+#Resume{
+	position:relative;
+	top:-55px;
+}
+.resume-icon{
+	position: relative;
+	height:225px;
+	width:auto;
+	left: 0%;
+  	transform: translate(-50%, 0%);
+}
+.resume-icon:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+.blurb{
+	position:relative;
+	font-size:28px;
+	left:-110%;
+	width: auto;
+	font-family: 'Cutive Mono', monospace;
+	color:#ff8080;
+}
+.logo{
+	height:350px;
+	width:auto;
 }

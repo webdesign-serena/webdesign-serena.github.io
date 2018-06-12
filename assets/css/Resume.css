@@ -1,6 +1,6 @@
 body, html {
 margin: 0px;
-height: 120%;
+height: 125%;
 width: 100%;
 background: white;
 position: static;
@@ -11,7 +11,7 @@ height: 100vh;
 a{
 	text-decoration: none;
 }
-p{
+.header{
 	position: relative;
 	text-align:center;
 	top:30px;
@@ -21,19 +21,7 @@ p{
 	color:#ff8080;
 }
 
-/*.blur{
-	text-align:center;
-	top:180px;
-	font-size: 40px;
-	font-family: 'Amatic SC', cursive;
-	color:	#ff8080;
-	position: absolute;
-	margin: auto;
-    width: 50%;
-    left:25%;
-    letter-spacing: 5px;
 
-}*/
 .bordertop{
 	height:60px;
 	width:auto;
@@ -112,14 +100,44 @@ p{
 	text-align: center;
 	position:relative;
 	transform: translate(-50%, 70%);
-	top:-50px;
+	top:-100px;
 	color:grey;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Project*/
+
+#project{
+	position:relative;
+	top:50%;
+}
+.resume-icon{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	height: 500px;
+	transform: translate(-50%, -50%);
+}
+.resume-icon:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+.Skillabl{
+	font-size:30px;
+	width:1200px;
+	height:auto;
+	left:50%;
+	text-align: center;
+	position:relative;
+	transform: translate(-50%, 70%);
+	top:50px;
+	color:black;
 	font-family: 'Montserrat', sans-serif;
 }
 
 
 
-/*CONTENT PAGE*/
+/*CONTENT PAGE
 #content{
 	top:-200px;
 	position:relative;
@@ -254,35 +272,7 @@ p{
 	font-family: 'Montserrat', sans-serif;
 	color:grey;
 }
-#Resume{
-	position:relative;
-	top:10px;
-}
-.resume-icon{
-	position: relative;
-	height:300px;
-	width:auto;
-	left: 50%;
-  	transform: translate(-50%, 0%);
-}
-.resume-icon:hover{
-	cursor: pointer;
-	opacity: 0.7;
-}
 
-.resume-icon:active{
-}
-
-.blurb{
-	position:relative;
-	font-size:35px;
-	transform: translate(-25%, -50%);
-	font-family: 'Cutive Mono', monospace;
-}
-.logo{
-	height:350px;
-	width:auto;
-}
 /* jQuery Manipulation Classes */
 
 
@@ -302,15 +292,13 @@ p{
 
 }
 #caption{
-	bottom: 2%;
-	left:93%;
+	bottom:-325px;
+	left:118.5%;
 	font-size: 12px;
 	transform:translate(-50%, -50%);
-	position:absolute;
-	text-align:center;
+	position:relative;
+	text-align:;
 	width:70%;
 	font-family: 'Montserrat', sans-serif;
 }
-}
-
 
